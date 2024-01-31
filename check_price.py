@@ -44,7 +44,7 @@ money_price = get_data_price()
 
 current_datetime = datetime.now()
 #print(f"{current_datetime}:   {money_price}")
-if int(money_price) < 18400000:
+if int(money_price) > 18380000:
     email = yagmail.SMTP(user="donganhguk@gmail.com", password="wqcl gjqw bdfc umzf")
 
 
